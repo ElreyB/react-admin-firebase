@@ -268,12 +268,16 @@ export class FirebaseClient implements IFirebaseClient {
         if (isArray) {
           await Promise.all(
             (val as []).map((arrayObj, index) => {
+              let uniqueId =
+                Math.random()
+                  .toString(36)
+                  .substring(2) + Date.now().toString(36);
               if (!!val[index] && val[index].hasOwnProperty('rawFile')) {
                 return Promise.all([
                   this.parseDataField(
                     val[index],
                     docPath,
-                    fieldName + index
+                    val[index].rawFile.name.replace(/\s+/, '_') + '_' + uniqueId
                   )
                 ]);
               } else {
