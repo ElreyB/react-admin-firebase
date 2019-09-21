@@ -1,5 +1,5 @@
 {
-  "name": "react-admin-firebase",
+  "name": "@elreyb/react-admin-firebase",
   "description": "A firebase data provider for the React Admin framework",
   "version": "0.8.9",
   "dependencies": {
@@ -29,8 +29,8 @@
     "tslint": "^5.16.0",
     "typescript": "^3.0.3"
   },
-  "homepage": "https://github.com/benwinding/react-admin-firebase",
-  "email": "hello@benwinding.com",
+  "homepage": "https://github.com/elreyb/react-admin-firebase",
+  "email": "elbelmonti@gmail.com",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf dist && microbundle",
