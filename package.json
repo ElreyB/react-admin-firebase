@@ -29,7 +29,7 @@
     "tslint": "^5.16.0",
     "typescript": "^3.0.3"
   },
-  "homepage": "https://github.com/elreyb/react-admin-firebase",
+  "homepage": "https://github.com/ElreyB/react-admin-firebase",
   "email": "elbelmonti@gmail.com",
   "license": "MIT",
   "scripts": {
